@@ -1,0 +1,53 @@
+.bg-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  font-weight: 'Roboto';
+}
+.image {
+  width: 60%;
+}
+
+.speed-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  font-weight: 'Roboto';
+  margin-bottom: 18px;
+}
+.paragraph {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-weight: bold;
+  font-weight: 'Roboto';
+  margin-bottom: 18px;
+}
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 8px;
+  margin: 18px;
+  padding: 10px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.brake-btn {
+  background-color: transparent;
+  color: #94a3b8;
+  border-radius: 8px;
+  margin: 18px;
+  padding: 10px;
+  border: 2px solid #94a3b8;
+  cursor: pointer;
+  outline: none;
+}
